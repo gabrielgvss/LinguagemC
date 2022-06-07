@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <windows.h>
+#include <locale.h>
+int main()
+{
+setlocale(LC_ALL, "Portuguese");
+
+char palavra[50], letra[1]={'a','A'};
+int i, con=0;
+
+    printf("O programa só irá mostrar a palavra digitada caso ela comece com A ou a.\n");
+    printf("Digite um nome: ");
+    gets(palavra);
+
+    if(palavra[0]==letra[0]){
+            printf("%s", palavra);
+    }
+    else if(palavra[0]==letra[1]){
+        print("gsdgasdgsadgsa");
+    }
+    return 0;
+}

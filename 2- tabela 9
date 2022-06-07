@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <windows.h>
+int main()
+{
+/*Faça um programa que receba uma palavra e a imprima de trás-para-frente*/
+
+char palavra[50], aeio[100]={'A','E','I','O','U','a','e','i','o','u'};
+int i,j;
+
+    printf("Digite uma palavra para o programa mostrar ela ao contrario: ");
+    gets(palavra);
+
+    for(i = 0; i < strlen(palavra); i++){
+            for(j = 0 ; j <= 10; j++){
+                if(palavra[i] == aeio[j]){
+                    palavra[i] = ' ';
+                }
+            }
+            printf("%c", palavra[i]);
+
+    }
+    return 0;
+}

@@ -1,0 +1,6 @@
+lista
+INSERIR: uva
+INSERIR: maracuja
+INSERIR: banana
+REMOVER: banana
+IMPRIMIR
